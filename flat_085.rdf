@@ -1,0 +1,32 @@
+$---------------------------------------------------------------------MDI_HEADER
+[MDI_HEADER]
+FILE_TYPE = 'RDF'
+FILE_VERSION = 12
+FILE_FORMAT = 'ASCII'
+$--------------------------------------------------------------------------UNITS
+[UNITS]
+LENGTH = 'METER'
+ANGLE = 'RADIAN'
+FORCE = 'NEWTON'
+MASS = 'KILOGRAM'
+TIME = 'SECOND'
+$--------------------------------------------------------------------------MODEL
+[MODEL]
+METHOD = 'USER'
+FUNCTION_NAME = 'vitools::vi_road'
+TYPE = 'FLAT'
+MODE = 'STANDARD'
+FORMAT = 'STANDARD'
+$-------------------------------------------------------------------------GLOBAL
+[GLOBAL]
+ORIGIN_X = 0
+ORIGIN_Y = 0
+ORIGIN_Z = 0
+$------------------------------------------------------------------FLAT_GEOMETRY
+[FLAT_GEOMETRY]
+X_DIMENSION = 300.0
+Y_DIMENSION = 150.0
+$-----------------------------------------------------------------------FRICTION
+[FRICTION]
+$GLOBAL = 1.0
+GLOBAL = 0.85
