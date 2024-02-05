@@ -2,6 +2,8 @@
 
 Direct Yaw Control allows the integration between MATLAB + Simulink and VI-CRT, generating the co-simulation results and correlating with the vehicle data.
 
+##FILES INFO:
+
 ### MATLAB
 Main code:
   - dyc_dvlpmt.mlx
