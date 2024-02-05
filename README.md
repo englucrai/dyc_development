@@ -32,13 +32,14 @@ The workflow is explained below step-by-step:
 
 (VI-CRT)
 1. Load the vehicle model inside CI-CRT
-2. Load the fingerprint inside VI-CRT
-     2261_VOLCANO_DYC_fp.xml
-  Note: make sure the road selected has a friction coefficient equal to 0.85 (flat_085.rdf)
+2. Load the fingerprint inside VI-CRT* (2261_VOLCANO_DYC_fp.xml)
+   
+*Note: make sure the road selected has a friction coefficient equal to 0.85 (flat_085.rdf)
 
-3. Run all the events on the fingerprint to generate the send files used as input in the co-simulation 
+4. Run all the events on the fingerprint to generate the send files used as input in the co-simulation 
 
 (MATLAB)
 
-4. Run dyc_dvlpmt.mlx
-  Note: Save the results in the desired Path before running again for another maneuver
+4. Run dyc_dvlpmt.mlx*
+   
+*Note: Save the results in the desired Path before running again for another maneuver
